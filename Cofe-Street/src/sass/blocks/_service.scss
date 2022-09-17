@@ -1,0 +1,39 @@
+.service {
+    margin-top: 350px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 300px;
+    h2 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    &__contant {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        img {
+            width: 159px;
+            height: 159px;
+            margin-bottom: 30px;
+            display: block;
+        }
+    }
+}

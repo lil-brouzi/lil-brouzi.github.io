@@ -1,0 +1,87 @@
+.menu {
+    margin-top: 120px;
+    width: 100%;
+    h2 {
+        margin-left: 120px;
+        span {
+            color: $main-color;
+            text-decoration-line: underline;
+            text-decoration-color: $span-color;
+        }
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    &__slide {
+        max-width: 355px;
+        max-height: 385px;
+        filter: drop-shadow(10px 10px 32px rgba(0, 0, 0, 0.25));
+        background: white;
+        border-radius: 12px;
+        padding-top: 24px;
+        padding-bottom: 19px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 50px;
+        img {
+            max-width: 307px;
+            max-height: 226px;
+            margin-bottom: 19px;
+            margin-left: 20px;
+            margin-right: 20px;
+            
+        }
+        .rating {
+            margin-left: 30px;
+            text-align: center;
+            margin-top: 5px;
+            color: $main-color;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 21px;
+            width: 62px;
+            height: 26px;
+            background-color: #fff;
+            border-radius: 50px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: 15px solid rgba(255, 255, 255, 0.336);
+
+            i {
+                color:#FF912B;
+            }
+        }
+    }
+    &__slide_flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 29px;
+        margin-right: 33px;
+        h3 {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        .butt__cart {
+            button {
+                width: 43px;
+                height: 43px;
+                background: #FF912B;
+                border-radius: 64px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+}

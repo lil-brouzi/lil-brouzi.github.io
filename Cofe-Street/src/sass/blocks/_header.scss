@@ -1,0 +1,74 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 112px;
+    &__logo {
+        width: 150px;
+        img {
+            width: 100%;
+        }
+    }
+    &__menu__ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 40px;
+        margin-bottom: 0;
+        z-index: 2;
+        li {
+            list-style-type: none;
+            margin-left: 32px;
+            z-index: 2;
+        }
+        a {
+            font-size: 18px;
+            line-height: 27px;
+            color: black;
+        }
+        .active {
+            color: $span-color;
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 185px;
+            border: none;
+            outline: none;
+            background: none;
+        }
+        form {
+            width: 222px;
+            height: 40px;
+            background-color: white;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 5px;
+            z-index: 2;
+
+            button {
+                background: none;
+                border: none;
+                border-radius: 50px;
+                z-index: 2;
+                i {
+                    color: black;
+                }
+            }
+        }
+    }
+    &__cart {
+        margin-left: 24px;
+        background: none;
+        border: none;
+        z-index: 2;
+        i {
+            font-size: 25px;
+            color:black;
+        }
+    }
+}

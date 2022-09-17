@@ -1,0 +1,82 @@
+@import "_media.scss";
+@import "base/variables.scss";
+@import "base/mixins.scss";
+@import "_media.scss";
+@import "blocks/promo.scss";
+@import "blocks/header.scss";
+@import "blocks/popular.scss";
+@import "blocks/service.scss";
+@import "blocks/about.scss";
+@import "blocks/footer.scss";
+@import "blocks/menu.scss";
+@import "blocks/contact.scss";
+
+
+
+
+
+html { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }    
+/* alternatively: html { min-height: 100%; height: 100%; } */    
+
+html { min-height: 100%; }
+body { min-height: 100%; }
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: $text-color;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    color: $main-color;
+}
+
+span {
+    color: $span-color;
+}
+
+.promo__image {
+    background: url(../image/coffee-beans.svg) center (center/cover) no-repeat;
+    position: absolute;
+    width: 436px;
+    height: 310px;
+    float: right;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.promo__image2 {
+    background: url(../image/coffee-beans-2.svg) center (center/cover) no-repeat;
+    width: 569px;
+    height: 394px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+a:hover {
+    color: $span-color;
+}
+
+a {
+    text-decoration: none;
+}
+
+.butt_main {
+    background: #2F2105;
+    box-shadow: 0px 4px 32px rgba(223, 195, 124, 0.25);
+    border-radius: 33px;
+    color: white;
+}
+
+.foot {
+    background: url(../image/foot-coffee.svg) center (center/cover) no-repeat;
+    width: 1170px;
+    height: 392px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

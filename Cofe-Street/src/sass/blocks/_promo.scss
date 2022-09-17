@@ -1,0 +1,77 @@
+.promo {
+    width: 100%;
+    min-height: 970px;
+    background-color: $key-color;
+    &__butt {
+        margin-top: 40px;
+        .more_menu {
+            width: 118px;
+            height: 38px;
+            border-radius: 33px;
+            border: none;
+            margin-left: 30px;
+            background: none;
+        }
+        .more_menu:hover {
+            border: 2px solid #FF912B;
+            span {
+                color: #FF912B;
+            }
+        }
+        span {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        button{
+            width: 170px;
+            height: 46px;
+            .content {
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+            .ellips {
+                width: 22px;
+                height: 22px;
+                background: #FF912B;
+                border-radius: 50%;
+                text-align: center;
+                margin-left: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i{
+                    color: white;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    &__info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 48px;
+    }
+    &__enjoy {
+        max-width: 490px;
+        h1 {
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 72px;
+        }
+    }
+    &__text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        max-width: 390px;
+    }
+    &__coffee{
+        z-index: 2;
+        img{
+            max-width: 527px;
+        }
+    }
+}
+
